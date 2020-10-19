@@ -7,42 +7,96 @@ const questions = [
     {
         type: 'input',
         message: 'What is your GitHub username?',
-        name: 'username'
+        name: 'username',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'What is your email?',
-        name: 'email'
+        name: 'email',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'Please enter the title of your project',
-        name: 'title'
+        name: 'title',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'Please enter a description of your project',
-        name: 'description'
+        name: 'description',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
+    },
+    {
+        type: 'list',
+        message: 'Choose an open source license',
+        choices: ['MIT License', 'Apache License 2.0', 'Mozilla Public License 2.0', 'GNU AGPLv3', 'Unlicensed'],
+        name: 'license'
     },
     {
         type: 'input',
         message: 'What command should be run to install any dependencies?',
-        name: 'installation'
+        name: 'installation',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'What command should be run to test any dependencies?',
-        name: 'test'
+        name: 'test',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'Enter any information about usage',
-        name: 'usage'
+        name: 'usage',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     },
     {
         type: 'input',
         message: 'Enter any guidelines regarding contribution to the project',
-        name: 'contribution'
+        name: 'contribution',
+        validate: function(input) {
+            let done = this.async();
+            if (input) {
+                done(null, true);
+            }
+        }
     }
 ];
 
