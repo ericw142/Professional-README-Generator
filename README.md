@@ -26,17 +26,17 @@ Check the tutorialVideo folder for an MP4 video displaying how to use the applic
 To install necessary dependencies, run the following command:
 ---
 npm install
----
+
 Or
----
+
 npm install inquirer
----
+
 
 ## Usage
 Open a terminal at the location of the index.js file. Then, use the command:
----
+
 node index.js
---- 
+
 This will start the application. Follow the prompts and fill in info as is appropriate. Once you are finished, the application will write a README.md file.
 
 If there is already a README.md file at the current location, it WILL overwrite that file. Be sure to place desired README.md files somewhere else, or you will lose them the next time you run the application.
