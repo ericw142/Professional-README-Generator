@@ -1255,19 +1255,19 @@ ${data.description}
 To install necessary dependencies, run the following command:
 ---
 ${data.installation}
----
 
 ## Usage
 ${data.usage}
 
 ## Contributing
+
 ${data.contribution}
 
 ## Tests
 To run tests, run the following command:
 ---
 ${data.test}
----
+
 
 ## Questions
 
