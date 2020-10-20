@@ -3,7 +3,7 @@
 ## Description
 A command-line application that takes your input and generates a README.md file.
 In order to simplify and expediate the process of writing README files for your 
-projects, this application can be used instead. 
+projects, this application can be used instead of writing them manually. 
 
 Check the tutorialVideo folder for an MP4 video displaying how to use the application.
 
